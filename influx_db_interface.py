@@ -2,7 +2,7 @@ import influxdb_client, os, time
 from influxdb_client import InfluxDBClient, Point, WritePrecision
 from influxdb_client.client.write_api import SYNCHRONOUS
 
-token = "p6iddglXeQAwojxiZZoMLCOt_B-YSXeWfu6JldGIyva6lPDIDCruK2lgPcE7WLRSwRNbERuvxsd-0uqNj8nRuw=="
+token = "YOUR_TOKEN"
 org = "RKGIT"
 url = "http://localhost:8086"
 
